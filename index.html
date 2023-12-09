@@ -17,6 +17,7 @@
 <meta property="og:description"        content="Rhythmz & Motion is an electrifying dance company dedicated to the art of Latin dance, offering a warm and inclusive environment suitable for both novice enthusiasts and seasoned movers. Specializing in the dynamic world of salsa, they bring a unique flair by teaching the rhythmic intricacies of salsa on 2, showcasing their extensive years of expertise." />
 <meta property="og:image"              content="images/logo.webp" />
 
+<body>
 <!-- ============================================ -->
 <!--                 Navigation                   -->
 <!-- ============================================ -->
@@ -232,10 +233,14 @@ Welcome to Rhythmz & Motion, where the rhythm of salsa meets the warmth of commu
 
 <section id="video-1314">
     <div class="cs-container">
-    <a href="" class="cs-big-link">
+    <div class="cs-big-link">
         <!--Background Image-->
         <picture class="cs-background">
-            <iframe class="youtube-video" src="https://www.youtube.com/embed/v9e8v8lZQWA?si=EajbUZJdsOPxBEMi&amp;start=45&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="youtube-video-sm" media="(max-width: 425px)" src="https://www.youtube.com/embed/v9e8v8lZQWA?si=EajbUZJdsOPxBEMi&amp;start=45&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="youtube-video-md" media="(max-width: 1155px)" width="800px" src="https://www.youtube.com/embed/v9e8v8lZQWA?si=EajbUZJdsOPxBEMi&amp;start=45&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="youtube-video-lg" media="(min-width: 1156px)" src="https://www.youtube.com/embed/v9e8v8lZQWA?si=EajbUZJdsOPxBEMi&amp;start=45&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           
+            
             <!-- <iframe media="(min-width: 601px)" width="560" height="315" src="https://www.youtube.com/embed/v9e8v8lZQWA?si=EajbUZJdsOPxBEMi&amp;start=48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe media="(max-width: 600px)" width="50%" height="50%" src="https://www.youtube.com/embed/v9e8v8lZQWA?si=EajbUZJdsOPxBEMi&amp;start=48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
             
@@ -256,7 +261,7 @@ Welcome to Rhythmz & Motion, where the rhythm of salsa meets the warmth of commu
         <!-- <picture class="cs-picture">
             <img class="cs-link-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tax-play.svg" alt="play icon" width="24" height="24">
         </picture> -->
-    </a>
+    </div>
     </div>
 </section>
 
@@ -383,8 +388,10 @@ Welcome to Rhythmz & Motion, where the rhythm of salsa meets the warmth of commu
             </picture>
             <!--Picture 2-->
             <picture class="cs-image">
-                <source media="(max-width: 600px)" srcset="images/niya-and-guy.webp">
-                <source media="(min-width: 601px)" srcset="images/niya-and-guy.webp">
+                <source media="(max-width: 320px)" srcset="images/niya-and-guy.webp">
+                <source media="(max-width: 699px)" srcset="images/niya-and-guy-m.webp">
+                <source media="(max-width: 1299px)" srcset="images/niya-and-guy.webp">
+                <source media="(min-width: 1300px)" srcset="images/niya-and-guy-m.webp">
                 <img loading="lazy" decoding="async" src="images/niya-and-guy.webp" alt="gallery" width="272" height="320">
             </picture>
             <!--Picture 3-->
@@ -576,6 +583,8 @@ Welcome to Rhythmz & Motion, where the rhythm of salsa meets the warmth of commu
 </section>
                                 
 
+    
+</body>
 </html>
 
 <script src="animation.js"></script>

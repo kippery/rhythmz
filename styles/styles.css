@@ -2413,7 +2413,20 @@
   padding-top: 20px;
 }
 
-.youtube-video{
+.youtube-video-sm{
   aspect-ratio: 16 / 9;
   width: 100%;
+  height: 100%;
+}
+
+.youtube-video-md{
+  aspect-ratio: 10 / 5;
+  width: 100%;
+  height: 100%;
+}
+
+.youtube-video-lg{
+  aspect-ratio: 2 / 2;
+  width: 100%;
+  height: 100%
 }
