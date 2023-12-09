@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="description" content="Rhythmz & Motion Dance Studio - Home">
+<title>Rhythmz & Motion Dance Studio - Home</title>
+
+<link rel="stylesheet" type="text/css" href="styles/styles.css" /> 
+<link rel="stylesheet" type="text/css" href="styles/core-styles.css" /> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="images/plain-white-rectangle.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="our-story.html" class="cs-li-link">
+                            Our Story
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="pricing.html" class="cs-li-link">
+                            Pricing
+                        </a>
+                    </li>
+
+                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            Gallery
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Photos</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Salsa Videos</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Bachata Videos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cs-li">
+                        <a href="schedule.html" class="cs-li-link">
+                            Schedule
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="contact.html" class="cs-li-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-997">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Rhythmz & Motion</span>
+            <h1 class="cs-title"><span class="cs-color">#1</span> Latin Dance Studio in Smyrna</h1>
+            <p class="cs-text">
+                
+Welcome to Rhythmz & Motion, where the rhythm of salsa meets the warmth of community! Our studio specializes in teaching salsa on 2, providing the perfect space for both beginners and seasoned dancers. Join us for an enriching experience where every step feels like a celebration.</p>
+            <div class="cs-button-box">
+                <a href="" class="cs-button-solid">Services</a>
+                <a href="" class="cs-button-transparent">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="images/alexag.jpg">
+        <source media="(min-width: 601px)" srcset="images/alexa1.webp">
+        <img loading="lazy" decoding="async" src="images/alexa1.webp" alt="restaurant" width="1920" height="1200" aria-hidden="true">
+    </picture>
+</section>
+                   
+<div style="
+    background-color: var(--primary);
+    width: 100%;
+    height: 10px;
+    ">
+
+</div>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-943">
+    <div class="cs-container">
+        <!-- Left Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Services</span>
+            <h2 class="cs-title">How We Get Down</h2>
+            <p class="cs-text">
+                Step into the world of Latin dance at Rhythmz & Motion, where we ignite your passion and bring the joy of dance to life!</p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                </picture>
+                <h3 class="cs-h3">Group Classes</h3>
+                <p class="cs-item-text">
+                    Dive in with our energetic group classes, led by expert instructors for a spirited community experience.
+                </p>
+                <a href="" class="cs-link">Read More</a>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair1.jpg" alt="hair cut" width="480" height="425">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                </picture>
+                <h3 class="cs-h3">Private Classes</h3>
+                <p class="cs-item-text">
+                    Elevate your dance with personalized attention in private sessions, tailored to your style and skill level.
+                </p>
+                <a href="" class="cs-link">Read More</a>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair2.jpg" alt="hair cut" width="480" height="425">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                </picture>
+                <h3 class="cs-h3">Performance Teams</h3>
+                <p class="cs-item-text">
+                    Join our dynamic performance teams, mastering show-stopping routines and showcasing Latin dance artistry on stage.
+                </p>
+                <a href="" class="cs-link">Read More</a>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="hair cut" width="480" height="425">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trees-white.svg" alt="hair cut" width="40" height="40">
+                </picture>
+                <h3 class="cs-h3">Social Outings</h3>
+                <p class="cs-item-text">
+                    Extend the rhythm beyond the studio in our lively socials, forging connections and creating unforgettable memories.</p>
+                <a href="" class="cs-link">Read More</a>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="hair cut" width="480" height="425">
+                </picture>
+            </li>
+        </ul>
+    </div>
+    <!--Waves Background-->
+    <picture class="cs-waves">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves-m.svg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves.svg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves.svg" alt="waves graphic" width="1920" height="331" aria-hidden="true">
+    </picture>
+</section>
+
+                                
+                                
+<!-- ============================================ -->
+<!--                   Quote                      -->
+<!-- ============================================ -->
+
+<section id="quote-560">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Quote</span>
+            <p class="cs-quote">
+                "Awesome dancers, wonderful people, and welcoming atmosphere!"</p>
+            <span class="quote-name">Natalie Greenfield</span>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Video                      -->
+<!-- ============================================ -->
+
+<section id="video-1314">
+    <div class="cs-container">
+    <a href="" class="cs-big-link">
+        <!--Background Image-->
+        <picture class="cs-background">
+            <source media="(min-width: 1024px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting5.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting5.jpg">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting5.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting5.jpg" alt="meeting" width="1920" height="750">
+        </picture>
+        <!--Play Icon-->
+        <picture class="cs-picture">
+            <img class="cs-link-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tax-play.svg" alt="play icon" width="24" height="24">
+        </picture>
+    </a>
+    </div>
+</section>
+
+<div class="yw-wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<div class="wy-wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<!-- ============================================ -->
+<!--                  Why Choose                  -->
+<!-- ============================================ -->
+
+<section id="why-choose-507">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Learn From The Best</span>
+                <h2 class="cs-title">Why Choose Us</h2>
+            </div>
+        </div>
+        <div class="cs-flex-group">
+            <!--Stats List-->
+            <ul class="cs-card-group">
+                <li class="cs-stats-item">
+                    <span class="cs-number">450+</span>
+                    <span class="cs-desc">Students Taught</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">200+</span>
+                    <span class="cs-desc">Positive FB Reviews</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">35</span>
+                    <span class="cs-desc">Years of Combined Experience</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">100%</span>
+                    <span class="cs-desc">Committed to Your Learning</span>
+                </li>
+            </ul>
+            <!--Qualities List-->
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <span class="cs-li-number">01</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Expertise</h3>
+                        <p class="cs-li-text">
+                            Our seasoned instructors bring years of professional training and performance experience to every class.</p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <span class="cs-li-number">02</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Passion</h3>
+                        <p class="cs-li-text">
+                            Our leaders are not only experienced, but passionate about their craft. Let us ignite your love for movement!</p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <span class="cs-li-number">03</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Community</h3>
+                        <p class="cs-li-text">
+                            Join a vibrant community, creating lasting connections both on and off the dance floor in our inclusive and supportive studio environment.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+</section>
+<!-- <div class="custom-shape-divider-top-1702060890">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+    </svg>
+</div>
+     
+<div class="custom-shape-divider-bottom-1702062435">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+    </svg>
+</div> -->
+
+
+<div class="custom-shape-divider-top-1702063581">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<div class="custom-shape-divider-bottom-1702063738">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-1152">
+    <div class="cs-container">
+        <div class="cs-content">
+            <!-- <span class="cs-topper">Our Portfolio</span> -->
+            <h2 class="light-up-title">Light Up The Dance Floor</h2>
+            <p class="light-up-text">
+                Class isn't the only place we like to dance! Catch us social dancing on the weekends!
+        </div>
+        <div class="cs-gallery">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="images/partner.webp">
+                <source media="(min-width: 601px)" srcset="images/partner.webp">
+                <img loading="lazy" decoding="async" src="images/partner.webp" alt="gallery" width="272" height="320">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="images/niya-and-guy.webp">
+                <source media="(min-width: 601px)" srcset="images/niya-and-guy.webp">
+                <img loading="lazy" decoding="async" src="images/niya-and-guy.webp" alt="gallery" width="272" height="320">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="images/dipping.webp">
+                <source media="(min-width: 601px)" srcset="images/dipping.webp">
+                <img loading="lazy" decoding="async" src="images/dipping.webp" alt="gallery" width="272" height="320">
+            </picture>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--          Yellow Triangle Page Split          -->
+<!-- ============================================ -->
+                                
+<div class="yellow-triangle">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-team-860">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Our Founders</span>
+                <h2 class="cs-title">The Brains Behind The Salsa</h2>
+            </div>
+            <a href="our-story.html" class="cs-button-solid">Our Story</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="images/al-and-niya.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="images/al-and-niya.webp">
+                    <img loading="lazy" decoding="async" src="images/al-and-niya.webp" alt="person" width="305" height="407">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Al & Niya</span>
+                    <span class="cs-job">Directors | Owners | Instructors</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--             Triangle Page Split              -->
+<!-- ============================================ -->
+                                
+<div class="beige-triangle-down">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+    </svg>
+</div>
+<!-- ============================================ -->
+<!--           Beige Triangle Page Split          -->
+<!-- ============================================ -->
+                                
+<div class="beige-triangle">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<!-- ============================================ -->
+<!--             Triangle Page Split              -->
+<!-- ============================================ -->
+                                
+<div class="beige-triangle">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+    </svg>
+</div>
+                                
+<!-- ============================================ -->
+<!--                    Reviews                   -->
+<!-- ============================================ -->
+
+<section id="reviews-1641">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="images/gina.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="images/gina.webp">
+            <img loading="lazy" decoding="async" src="images/gina.webp" alt="models" width="586" height="690">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Reviews</span>
+            <h2 class="cs-title">What Our Clients Say</h2>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <picture class="cs-profile">
+                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-headshot1.jpeg" alt="profile" width="35" height="40" loading="lazy" decoding="async" aria-hidden="true">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-review">Great atmosphere and instructors!  Family oriented environment!  Great place to meet and socialize while learning to dance!</span>
+                        <span class="cs-name">Reives Rick</span>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-profile">
+                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-headshot2.jpeg" alt="profile" width="35" height="40" loading="lazy" decoding="async" aria-hidden="true">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-review">Allen and Niya are so devoted and give their life to teaching. I love these people and respect their classes so much! Incretible instructors!</span>
+                        <span class="cs-name">Ramonita Bowlin</span>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-profile">
+                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-headshot3.jpeg" alt="profile" width="35" height="40" loading="lazy" decoding="async" aria-hidden="true">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-review">Excellent studio with talented instructors with a unique technique and style.</span>
+                        <span class="cs-name">Amity Word</span>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-profile">
+                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-headshot1.jpeg" alt="profile" width="35" height="40" loading="lazy" decoding="async" aria-hidden="true">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-review">Rhythmz & Motion consistently produce good dancers from their students!</span>
+                        <span class="cs-name">Dan Wilson</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-983">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Got Questions?</span>
+            <h2 class="cs-title">Get In Touch!</h2>
+        </div>
+        <!--Form-->
+        <form class="cs-form" id="cs-form-983" name="Contact Form" method="post">
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-587-983" name="name" placeholder="Name">
+            </label>
+            <label class="cs-label">
+                Phone
+                <input class="cs-input" required type="text" id="phone-587-983" name="phone" placeholder="Phone">
+            </label>
+            <label class="cs-label">
+                Email
+                <input class="cs-input" required type="text" id="email-587-983" name="email" placeholder="Email">
+            </label>
+            <label class="cs-label">
+                How did you hear about us?
+                <input class="cs-input" required type="text" id="hear-587-983" name="heat" placeholder="Google">
+            </label>
+            <label class="cs-label cs-message">
+                Message
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-587-983" placeholder="Write message..."></textarea>
+            </label>
+            <div class="cs-wrapper">
+                <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/salon-bg-m.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/salon-bg.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/salon-bg.jpg" alt="hair salon" width="2500" height="770">
+    </picture>
+</section>
+                                
+
+</html>
+
+<script src="animation.js"></script>
+
