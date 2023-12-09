@@ -2412,3 +2412,8 @@
   color: white;
   padding-top: 20px;
 }
+
+.youtube-video{
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
