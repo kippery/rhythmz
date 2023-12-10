@@ -745,20 +745,7 @@
     }
 }
 /* Large Desktop Parallax Effect - 1300px */
-@media only screen and (min-width: 81.25rem) {
-    #hero-997 {
-        background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/landing.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        /* creates parallax effect on background image */
-        background-attachment: fixed;
-        /* remove img tag so we can make parallax work */
-    }
-    #hero-997 .cs-background img {
-        display: none;
-    }
-}
+
 
 /*-- -------------------------- -->
 <---          Services          -->
@@ -1039,6 +1026,7 @@
   #why-choose-507 {
       padding: var(--sectionPadding);
       background-color: #f7f3ee;
+      margin-bottom: -1px;
   }
   #why-choose-507 .cs-container {
       width: 100%;
@@ -1228,6 +1216,7 @@
   #gallery-1152 {
       padding: var(--sectionPadding);
       background-color: var(--primary);
+      margin-bottom: -1px;
   }
   #gallery-1152 .cs-container {
       width: 100%;
@@ -1486,6 +1475,28 @@
     }
   }
 
+  /* .custom-shape-divider-bottom-1702167391 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: var(--primary);
+}
+
+.custom-shape-divider-bottom-1702167391 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 30px;
+}
+
+.custom-shape-divider-bottom-1702167391 .shape-fill {
+    fill: #000000;
+} */
+  
 /*-- -------------------------- -->
 <---           Video            -->
 <--- -------------------------- -*/
@@ -1500,8 +1511,8 @@
       justify-content: center;
       align-items: center;
       position: relative;
-      padding: var(--sectionPadding);
-      background-color: var(--primary);
+      padding: 0;
+      background-color: black;
   }
   #video-1314 .cs-big-link:hover .cs-background img {
       transform: scale(1.1);
@@ -1569,8 +1580,9 @@
   #quote-560 {
       padding: var(--sectionPadding);
       background-color: var(--primary);
-      padding-top: 10px;
+      padding-top: 37px;
       padding-bottom: 10px;
+      margin-bottom: -1px;
   }
   #quote-560 .cs-container {
       width: 100%;
@@ -1592,7 +1604,7 @@
       align-items: flex-start;
       /* 16px - 20px */
       gap: clamp(1rem, 2vw, 1.25rem);
-      padding-bottom: 10px;
+      padding-bottom: 30px;
   }
 
   #quote-560 .cs-topper:before {
@@ -2247,6 +2259,7 @@
   display: block;
   width: calc(100% + 1.3px);
   height: 68px;
+  margin-bottom: -1px;
 }
 
 .beige-triangle-down .shape-fill {
@@ -2310,6 +2323,7 @@
   display: block;
   width: calc(100% + 1.3px);
   height: 68px;
+  margin-bottom: -1px;
 }
 
 .wy-wave .shape-fill {
@@ -2359,6 +2373,7 @@
   display: block;
   width: calc(100% + 1.3px);
   height: 68px;
+  margin-bottom: -1px;
 }
 
 .custom-shape-divider-bottom-1702063738 .shape-fill {

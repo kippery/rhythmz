@@ -62,6 +62,7 @@
       z-index: 1;
       padding-bottom: 7px;
       padding-top: 40px;
+      margin-bottom: -1px;
   }
   #banner-558 .cs-container {
       text-align: center;
@@ -166,7 +167,7 @@
   }
   
   .custom-shape-divider-bottom-1702091654 .shape-fill {
-      fill: #FFCD16;
+      fill: var(--primary);
   }
 
 
