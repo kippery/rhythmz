@@ -1474,28 +1474,6 @@
       max-height: 100%;
     }
   }
-
-  /* .custom-shape-divider-bottom-1702167391 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-    background-color: var(--primary);
-}
-
-.custom-shape-divider-bottom-1702167391 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 30px;
-}
-
-.custom-shape-divider-bottom-1702167391 .shape-fill {
-    fill: #000000;
-} */
   
 /*-- -------------------------- -->
 <---           Video            -->
@@ -2180,50 +2158,6 @@
   )
 }
 
-/*Top Slant Page Split*/
-.custom-shape-divider-top-1702060890 {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1702060890 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 68px;
-}
-
-.custom-shape-divider-top-1702060890 .shape-fill {
-  fill: var(--secondary);
-}
-
-/*Bottom Slant Page Split*/
-.custom-shape-divider-bottom-1702062435 {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1702062435 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 68px;
-}
-
-.custom-shape-divider-bottom-1702062435 .shape-fill {
-  fill: var(--primary);
-}
-
-
 /*Triangle Top Page Split*/
 .yellow-triangle {
   position: relative;
@@ -2341,7 +2275,7 @@
 
 
 /*Gray-white-yellow-wave*/
-.custom-shape-divider-top-1702063581 {
+.gw-wave{
   position: relative;
   top: 0;
   left: 0;
@@ -2350,18 +2284,18 @@
   line-height: 0;
 }
 
-.custom-shape-divider-top-1702063581 svg {
+.gw-wave svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 68px;
 }
 
-.custom-shape-divider-top-1702063581 .shape-fill {
+.gw-wave .shape-fill {
   fill: var(--secondary);
 }
 
-.custom-shape-divider-bottom-1702063738 {
+.wy-bottom-wave {
   position: relative;
   bottom: 0;
   left: 0;
@@ -2370,7 +2304,7 @@
   line-height: 0;
 }
 
-.custom-shape-divider-bottom-1702063738 svg {
+.wy-bottom-wave svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
@@ -2378,34 +2312,8 @@
   margin-bottom: -1px;
 }
 
-.custom-shape-divider-bottom-1702063738 .shape-fill {
+.wy-bottom-wave  .shape-fill {
   fill: #FFCD16;
-}
-
-.custom-shape-divider-bottom-1702064269 {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1702064269 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 68px;
-}
-
-.custom-shape-divider-bottom-1702064269 .shape-fill {
-  fill: #FFCD16;
-}
-
-.diagonal-split-background{
-  background-color: #013A6B;
-  background-image: -webkit-linear-gradient(-80deg, var(--primary) 50%, var(--secondary) 50%);
 }
 
 .light-up-title{
