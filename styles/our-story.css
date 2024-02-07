@@ -20,31 +20,6 @@
   fill: #FFCD16;
 }
 
-
-/* Old Banner Top */
-/* .custom-shape-divider-bottom-1702090754 {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1702090754 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 88px;
-  transform: rotateY(180deg);
-  background-color: var(--secondary);
-}
-
-.custom-shape-divider-bottom-1702090754 .shape-fill {
-  fill: #FFCD16;
-} */
-
 /*-- -------------------------- -->
 <---          Banner            -->
 <--- -------------------------- -*/
@@ -169,31 +144,6 @@
   .custom-shape-divider-bottom-1702091654 .shape-fill {
       fill: var(--primary);
   }
-
-
-/* Old Banner Bottom    */
-    /* .custom-shape-divider-top-1702076890 {
-      position: relative;
-      top: 0;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-      transform: rotate(180deg);
-  }
-  
-  .custom-shape-divider-top-1702076890 svg {
-      position: relative;
-      display: block;
-      width: calc(100% + 1.3px);
-      height: 88px;
-      transform: rotateY(180deg);
-  }
-  
-  .custom-shape-divider-top-1702076890 .shape-fill {
-      fill: #FFCD16;
-  } */
-
 
 /*-- -------------------------- -->
 <---          About             -->
